@@ -262,7 +262,7 @@
         b.countdown(b.data("final-date"), {
             elapse: !0
         }).on("update.countdown", function(a) {
-            a.elapsed ? (c.html(c.data("after-countdown")), b.html(b.data("after-countdown"))) : b.html(a.strftime('<ul><li><span class="digits">%-D</span><span class="unit">Day%!D</span></li><li><span class="digits">%-H</span><span class="unit">Hour%!H</span></li><li><span class="digits">%-M</span><span class="unit">Minute%!M</span></li><li><span class="digits">%-S</span><span class="unit">Second%!S</span></li></ul>'))
+            a.elapsed ? (c.html(c.data("after-countdown")), b.html(b.data("after-countdown"))) : b.html(a.strftime('<ul><li><span class="digits">%-D</span><span class="unit">Ngày%!D</span></li><li><span class="digits">%-H</span><span class="unit">Giờ%!H</span></li><li><span class="digits">%-M</span><span class="unit">Phút%!M</span></li><li><span class="digits">%-S</span><span class="unit">Giây%!S</span></li></ul>'))
         })
     }
 
